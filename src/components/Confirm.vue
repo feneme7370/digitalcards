@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="bg-pink-200 grid text-center items-center px-5 py-10 my-10">
+    <div class="bg-pink-200 grid text-center items-center px-5 py-10">
 
         <p class="text-pink-900 text-lg mb-3 bangers-font tracking-wider">Nos gustaria que nos confirmes tu asistencia</p>
 

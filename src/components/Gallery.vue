@@ -6,7 +6,7 @@
 <template>
 
 
-<div class="grid grid-cols-2 md:grid-cols-3 gap-4 p-1">
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4 px-1 py-5">
     <div>
         <ImgLightbox
             class="img-gallery"
@@ -18,8 +18,8 @@
     <div>
         <ImgLightbox
             class="img-gallery"
-            name="/images/gallery/gallery_2.jpeg"
-            nameImg="imagen_2"
+            name="/images/gallery/gallery_4.jpeg"
+            nameImg="imagen_4"
             nameAlbum="galeria"
         />
     </div>
@@ -34,8 +34,8 @@
     <div>
         <ImgLightbox
             class="img-gallery"
-            name="/images/gallery/gallery_4.jpeg"
-            nameImg="imagen_4"
+            name="/images/gallery/gallery_2.jpeg"
+            nameImg="imagen_2"
             nameAlbum="galeria"
         />
     </div>

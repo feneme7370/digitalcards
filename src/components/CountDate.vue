@@ -35,7 +35,7 @@
 
 <template>
   <div class="text-center my-16">
-    <h2 class="text-xl italic font-bold text-pink-950">Solo faltan</h2>
+    <h2 class="text-xl font-bold text-pink-950 bangers-font tracking-wider">Solo faltan</h2>
     
     <div v-if="timeRemaining">
 
