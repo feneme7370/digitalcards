@@ -1,16 +1,15 @@
 <script setup>
-    import {gallery} from '@/helpers/config.js'
     import ImgLightbox from '@/components/sistem/ImgLightbox.vue'
 </script>
 
 <template>
 
 
-<div class="grid grid-cols-2 md:grid-cols-3 gap-4 px-1 py-5">
+<div class="grid grid-cols-2 gap-4 px-1 py-5">
     <div data-aos="zoom-in">
         <ImgLightbox
             class="img-gallery"
-            name="/images/gallery/gallery_1.jpeg"
+            name="/src/assets/1-ninayaitana/images/gallery/gallery_1.jpeg"
             nameImg="imagen_1"
             nameAlbum="galeria"
         />
@@ -18,7 +17,7 @@
     <div data-aos="zoom-in">
         <ImgLightbox
             class="img-gallery"
-            name="/images/gallery/gallery_4.jpeg"
+            name="/src/assets/1-ninayaitana/images/gallery/gallery_4.jpeg"
             nameImg="imagen_4"
             nameAlbum="galeria"
         />
@@ -26,7 +25,7 @@
     <div data-aos="zoom-in">
         <ImgLightbox
             class="img-gallery"
-            name="/images/gallery/gallery_3.jpeg"
+            name="/src/assets/1-ninayaitana/images/gallery/gallery_3.jpeg"
             nameImg="imagen_3"
             nameAlbum="galeria"
         />
@@ -34,7 +33,7 @@
     <div data-aos="zoom-in">
         <ImgLightbox
             class="img-gallery"
-            name="/images/gallery/gallery_2.jpeg"
+            name="/src/assets/1-ninayaitana/images/gallery/gallery_2.jpeg"
             nameImg="imagen_2"
             nameAlbum="galeria"
         />

@@ -1,7 +1,6 @@
 <script setup>
     import { computed, ref, onMounted, onUnmounted } from 'vue';
-    import {dateEvent} from '@/helpers/config.js'
-    const targetDate = new Date(dateEvent).getTime(); // Fecha objetivo
+    const targetDate = new Date('2024-11-17 17:00:00').getTime(); // Fecha objetivo
     const timeRemaining = ref(null);
     let intervalId = null;
 

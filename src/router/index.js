@@ -14,7 +14,7 @@ const router = createRouter({
     },
     {
       path: '/1-ninayaitana',
-      name: 'CardView',
+      name: '1-ninayaitana',
       // component: () => import(`../views/${route.params.cardId}/CardView.vue`),
       component: () => import(`../views/1-ninayaitana/CardView.vue`),
     },

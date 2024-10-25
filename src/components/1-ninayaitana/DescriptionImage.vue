@@ -63,7 +63,7 @@ onMounted(() => {
     </div>
 
     <div class="col-span-4"></div>
-    <img class="absolute right-0 -mr-4 h-full max-h-56 rounded-xl" src="/images/gallery/gallery_6.jpeg" alt="" data-aos="fade-left">
+    <img class="absolute right-0 -mr-4 h-full max-h-56 rounded-xl" src="/src/assets/1-ninayaitana/images/gallery/gallery_6.jpeg" alt="" data-aos="fade-left">
 
     
     
