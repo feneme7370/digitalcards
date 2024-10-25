@@ -17,7 +17,7 @@ import ImgLightbox from '@/components/sistem/ImgLightbox.vue'
 
   <ImgLightbox
       class="h-20" 
-      name="/src/assets/images/image_portate.jpeg"
+      name="/images/image_portate.jpeg"
       nameImg="imagen_1"
       nameAlbum="portada"
   />

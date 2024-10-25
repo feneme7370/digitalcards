@@ -9,7 +9,7 @@
 <img 
 	loading="lazy"
 	class="w-full opacity-30 object-cover h-screen min-h-48 p-2"
-	src="../assets/images/image_hero.jpeg" 
+	src="/images/image_hero.jpeg" 
 	alt="imagen portada"
 >
 

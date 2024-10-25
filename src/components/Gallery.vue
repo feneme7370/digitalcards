@@ -10,7 +10,7 @@
     <div>
         <ImgLightbox
             class="img-gallery"
-            name="/src/assets/images/gallery/gallery_1.jpeg"
+            name="/images/gallery/gallery_1.jpeg"
             nameImg="imagen_1"
             nameAlbum="galeria"
         />
@@ -18,7 +18,7 @@
     <div>
         <ImgLightbox
             class="img-gallery"
-            name="/src/assets/images/gallery/gallery_2.jpeg"
+            name="/images/gallery/gallery_2.jpeg"
             nameImg="imagen_2"
             nameAlbum="galeria"
         />
@@ -26,7 +26,7 @@
     <div>
         <ImgLightbox
             class="img-gallery"
-            name="/src/assets/images/gallery/gallery_3.jpeg"
+            name="/images/gallery/gallery_3.jpeg"
             nameImg="imagen_3"
             nameAlbum="galeria"
         />
@@ -34,7 +34,7 @@
     <div>
         <ImgLightbox
             class="img-gallery"
-            name="/src/assets/images/gallery/gallery_4.jpeg"
+            name="/images/gallery/gallery_4.jpeg"
             nameImg="imagen_4"
             nameAlbum="galeria"
         />
