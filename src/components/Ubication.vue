@@ -5,7 +5,7 @@
 <template>
   <div class="grid grid-cols-12 gap-1 h-60 w-full text-pink-900 fill-pink-950 mt-8 tracking-widest bangers-font relative">
 
-    <img class="absolute -ml-8 h-full max-h-56 rounded-xl" src="/images/gallery/gallery_5.jpeg" alt="">
+    <img class="absolute -ml-8 h-full max-h-56 rounded-xl" src="/images/gallery/gallery_5.jpeg" alt="" data-aos="fade-right">
     <div class="col-span-4"></div>
 
     <div class="col-span-8 mx-auto flex flex-col justify-center items-center">

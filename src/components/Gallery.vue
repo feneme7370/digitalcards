@@ -7,7 +7,7 @@
 
 
 <div class="grid grid-cols-2 md:grid-cols-3 gap-4 px-1 py-5">
-    <div>
+    <div data-aos="zoom-in">
         <ImgLightbox
             class="img-gallery"
             name="/images/gallery/gallery_1.jpeg"
@@ -15,7 +15,7 @@
             nameAlbum="galeria"
         />
     </div>
-    <div>
+    <div data-aos="zoom-in">
         <ImgLightbox
             class="img-gallery"
             name="/images/gallery/gallery_4.jpeg"
@@ -23,7 +23,7 @@
             nameAlbum="galeria"
         />
     </div>
-    <div>
+    <div data-aos="zoom-in">
         <ImgLightbox
             class="img-gallery"
             name="/images/gallery/gallery_3.jpeg"
@@ -31,7 +31,7 @@
             nameAlbum="galeria"
         />
     </div>
-    <div>
+    <div data-aos="zoom-in">
         <ImgLightbox
             class="img-gallery"
             name="/images/gallery/gallery_2.jpeg"

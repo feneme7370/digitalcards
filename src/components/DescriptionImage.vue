@@ -30,7 +30,7 @@ onMounted(() => {
             <!-- Modal header -->
             <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
                 <h3 class="text-sm font-semibold text-pink-900 ">
-                    Te queremos decir...
+                    Cumple de Mellis
                 </h3>
                 <button type="button" class="text-pink-400 bg-transparent hover:bg-pink-200 hover:text-pink-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center" data-modal-hide="default-modal">
                     <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
@@ -45,7 +45,7 @@ onMounted(() => {
                   Nosotras
                   <br>
                   <br>
-                  Te queriamos contar que estamos muy contentas porque viene nuestro primer cumple, y queremos que esten personas muy importantes.
+                  Te queriamos contar que estamos muy contentas porque se viene nuestro primer cumple, y queremos que esten las personas mas importantes.
                   <br>
                   <br>
                   Esperamos verte ese dia y que pasemos un lindo momento
@@ -63,7 +63,7 @@ onMounted(() => {
     </div>
 
     <div class="col-span-4"></div>
-    <img class="absolute right-0 -mr-4 h-full max-h-56 rounded-xl" src="/images/gallery/gallery_6.jpeg" alt="">
+    <img class="absolute right-0 -mr-4 h-full max-h-56 rounded-xl" src="/images/gallery/gallery_6.jpeg" alt="" data-aos="fade-left">
 
     
     

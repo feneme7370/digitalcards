@@ -47,3 +47,6 @@ font-family: 'Montserrat', sans-serif;
 .img-gallery img {
   @apply rounded-xl;
 }
+.animate_hidden {
+   @apply opacity-0;
+}

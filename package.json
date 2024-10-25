@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "flowbite": "^2.5.2",
     "lightbox2": "^2.11.5",
     "pinia": "^2.2.4",
