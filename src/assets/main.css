@@ -8,12 +8,19 @@
     font-weight: normal;
     font-style: normal;
   }
+  .bangers-font {
+  font-family: 'Bangers', sans-serif;
+  }
 
 @font-face {
     font-family: 'HennyPenny';
     src: url('@/assets/fonts/Henny_Penny/HennyPenny-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+  }
+  .henny-penny-font {
+  font-family: 'HennyPenny', sans-serif;
+  @apply tracking-wider
   }
 
 @font-face {
@@ -22,20 +29,20 @@
     font-weight: normal;
     font-style: normal;
   }
-
 .roboto-font {
 font-family: 'Roboto', sans-serif;
 }
 
-.bangers-font {
-font-family: 'Bangers', sans-serif;
-@apply tracking-wide;
+@font-face {
+    font-family: 'Montserrat';
+    src: url('@/assets/fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+  }
+.montserrat-font {
+font-family: 'Montserrat', sans-serif;
 }
 
-.henny-penny-font {
-font-family: 'HennyPenny', sans-serif;
-@apply tracking-wider
-}
+
+
 
 .img-gallery img {
   @apply rounded-xl;

@@ -34,18 +34,21 @@
 </script>
 
 <template>
-  <div class="text-center my-20">
-    <h1 class="text-2xl font-bold text-pink-950">Solo faltan</h1>
+  <div class="text-center my-16">
+    <h2 class="text-xl italic font-bold text-pink-950">Solo faltan</h2>
     
     <div v-if="timeRemaining">
-      <p class="mt-8 text-2xl">{{ timeRemaining.days }} días</p>
+
+      <p class="mt-8 font-bold text-xl">{{ timeRemaining.days }} dias</p>
+
       <div class="flex gap-2 justify-center items-center italic mt-3">
-        <span class="bg-pink-300 rounded-lg p-3">{{ timeRemaining.hours }}</span>
+        <span class="bg-pink-300 rounded-lg p-3">{{ timeRemaining.hours }} hs.</span>
         <span>:</span>
-        <span class="bg-pink-300 rounded-lg p-3">{{ timeRemaining.minutes }}</span>
+        <span class="bg-pink-300 rounded-lg p-3">{{ timeRemaining.minutes }} min.</span>
         <span>:</span>
-        <span class="bg-pink-300 rounded-lg p-3">{{ timeRemaining.seconds }}</span>
+        <span class="bg-pink-300 rounded-lg p-3">{{ timeRemaining.seconds }} seg.</span>
       </div>
+
     </div>
     
     <p v-else>¡Es hoooy!</p>
