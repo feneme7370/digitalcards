@@ -1,4 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { useRoute } from 'vue-router'
+const route = useRoute()
+
 import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
@@ -9,6 +12,16 @@ const router = createRouter({
       name: 'home',
       component: HomeView
     },
+    {
+      path: '/1-ninayaitana',
+      name: 'CardView',
+      // component: () => import(`../views/${route.params.cardId}/CardView.vue`),
+      component: () => import(`../views/1-ninayaitana/CardView.vue`),
+    },
+    {
+      path: '/:pathMatch(.*)',
+      redirect: '/'
+    }
     // {
     //   path: '/about',
     //   name: 'about',
