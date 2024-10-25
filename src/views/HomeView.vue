@@ -56,7 +56,7 @@ import ImgLightbox from '@/components/sistem/ImgLightbox.vue'
      
        <div class="bg-pink-200 border border-pink-950 grid text-center items-center px-5 py-10 my-10">
      
-         <p class="text-pink-900 text-xl henny-penny-font">Esperamos poder compartir un momento con vos</p>
+         <p class="text-pink-900 text-xl henny-penny-font">Esperamos poder compartir un momento con vos!</p>
      
        </div>
     </div>
