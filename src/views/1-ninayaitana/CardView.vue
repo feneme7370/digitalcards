@@ -22,7 +22,7 @@ import ImgLightbox from '@/components/sistem/ImgLightbox.vue'
        
       <ImgLightbox
            class="h-20" 
-           name="/src/assets/1-ninayaitana/images/image_portate.jpeg"
+           name="/1-ninayaitana/images/image_portate.jpeg"
            nameImg="imagen_1"
            nameAlbum="portada"
        />
@@ -33,7 +33,7 @@ import ImgLightbox from '@/components/sistem/ImgLightbox.vue'
     
           <!-- imagen -->
           <div class="w-full">
-              <img src="/src/assets/1-ninayaitana/images/images/images_1.jpeg" alt="imagen portada" class="w-full object-cover opacity-80">
+              <img src="/1-ninayaitana/images/images/images_1.jpeg" alt="imagen portada" class="w-full object-cover opacity-80">
           </div>
     
           <!-- texto sobre la imagen -->

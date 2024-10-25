@@ -9,7 +9,7 @@
 <img 
 	loading="lazy"
 	class="w-full opacity-80 object-cover h-screen min-h-48 p-2"
-	src="/src/assets/1-ninayaitana/images/image_hero.jpeg" 
+	src="/1-ninayaitana/images/image_hero.jpeg" 
 	alt="imagen portada"
 >
 
