@@ -6,6 +6,14 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 
+
+
+const app = createApp(App)
+
+app.use(createPinia())
+app.use(router)
+
+app.mount('#app')
 import { onMounted } from 'vue'
 import { initFlowbite } from 'flowbite'
 
@@ -21,10 +29,3 @@ AOS.init({
 onMounted(() => {
     initFlowbite();
 })
-
-const app = createApp(App)
-
-app.use(createPinia())
-app.use(router)
-
-app.mount('#app')
