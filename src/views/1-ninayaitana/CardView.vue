@@ -3,6 +3,8 @@ import ImageHero from '@/components/1-ninayaitana/ImageHero.vue'
 import DescriptionInvite from '@/components/1-ninayaitana/DescriptionInvite.vue'
 import Gallery from '@/components/1-ninayaitana/Gallery.vue'
 import Ubication from '@/components/1-ninayaitana/Ubication.vue'
+
+
 import CountDate from '@/components/1-ninayaitana/CountDate.vue'
 import DescriptionImage from '@/components/1-ninayaitana/DescriptionImage.vue'
 import Confirm from '@/components/1-ninayaitana/Confirm.vue'
