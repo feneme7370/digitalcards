@@ -84,7 +84,7 @@ AOS.init({
 
         <div class="col-span-4"></div>
         <img class="absolute right-0 -mr-4 h-full max-h-56 rounded-xl"
-            src="/1-ninayaitana/images/gallery/gallery_6.jpeg" alt="" data-aos="fade-left">
+            src="/aaaa-c-NinaAitana/images/gallery/gallery_6.jpeg" alt="" data-aos="fade-left">
 
 
 

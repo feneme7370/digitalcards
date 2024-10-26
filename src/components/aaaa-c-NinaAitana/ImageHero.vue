@@ -14,7 +14,7 @@ AOS.init({
 
 		<!-- imagen de portada -->
 		<img loading="lazy" class="w-full opacity-80 object-cover h-screen min-h-48"
-			src="/1-ninayaitana/images/image_hero.jpeg" alt="imagen portada">
+			src="/aaaa-c-NinaAitana/images/image_hero.jpeg" alt="imagen portada">
 
 		<!-- descripcion sobre la portada -->
 		<div

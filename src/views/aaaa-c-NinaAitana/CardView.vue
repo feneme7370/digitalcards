@@ -1,28 +1,13 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
 
-import { initFlowbite } from 'flowbite'
-
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
-AOS.init({
-  duration: 1000, // Duración de la animación en milisegundos
-  once: true,     // La animación ocurre solo una vez al hacer scroll
-  delay: 200,
-});
-// initialize components based on data attribute selectors
-onMounted(() => {
-    initFlowbite();
-})
-
-import ImageHero from '@/components/1-ninayaitana/ImageHero.vue'
-import DescriptionInvite from '@/components/1-ninayaitana/DescriptionInvite.vue'
-import Gallery from '@/components/1-ninayaitana/Gallery.vue'
-import Ubication from '@/components/1-ninayaitana/Ubication.vue'
-import CountDate from '@/components/1-ninayaitana/CountDate.vue'
-import DescriptionImage from '@/components/1-ninayaitana/DescriptionImage.vue'
-import Confirm from '@/components/1-ninayaitana/Confirm.vue'
+import ImageHero from '@/components/aaaa-c-NinaAitana/ImageHero.vue'
+import DescriptionInvite from '@/components/aaaa-c-NinaAitana/DescriptionInvite.vue'
+import Gallery from '@/components/aaaa-c-NinaAitana/Gallery.vue'
+import Ubication from '@/components/aaaa-c-NinaAitana/Ubication.vue'
+import CountDate from '@/components/aaaa-c-NinaAitana/CountDate.vue'
+import DescriptionImage from '@/components/aaaa-c-NinaAitana/DescriptionImage.vue'
+import Confirm from '@/components/aaaa-c-NinaAitana/Confirm.vue'
 
 
 import ImgLightbox from '@/components/sistem/ImgLightbox.vue'
@@ -71,7 +56,7 @@ const toggleAudio = () => {
       <!-- Imagen completa de protagonista -->
       <ImgLightbox
            class="h-20" 
-           name="/1-ninayaitana/images/image_portate.jpeg"
+           name="/aaaa-c-NinaAitana/images/image_portate.jpeg"
            nameImg="imagen_1"
            nameAlbum="portada"
        />
@@ -84,7 +69,7 @@ const toggleAudio = () => {
     
           <!-- imagen -->
           <div class="w-full">
-              <img src="/1-ninayaitana/images/images/images_1.jpeg" alt="imagen portada" class="w-full object-cover opacity-80">
+              <img src="/aaaa-c-NinaAitana/images/images/images_1.jpeg" alt="imagen portada" class="w-full object-cover opacity-80">
           </div>
     
           <!-- texto sobre la imagen -->

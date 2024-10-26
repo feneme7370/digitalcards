@@ -13,33 +13,20 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/1-ninayaitana',
-      name: '1-ninayaitana',
+      path: '/aaaa-c-NinaAitana',
+      name: 'aaaa-c-NinaAitana',
       // component: () => import(`../views/${route.params.cardId}/CardView.vue`),
-      component: () => import(`../views/1-ninayaitana/CardView.vue`),
+      component: () => import(`../views/aaaa-c-NinaAitana/CardView.vue`),
     },
-    {
-      path: '/ninayaitana',
-      name: 'ninayaitana',
-      // component: () => import(`../views/${route.params.cardId}/CardView.vue`),
-      component: () => import(`../views/cumpleNinaAitana/CardView.vue`),
-    },
-    {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
-    },
-    {
-      path: '/aboutt',
-      name: 'aboutt',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AbouttView.vue')
-    },
+    // {
+    //   path: '/about',
+    //   name: 'about',
+    //   // route level code-splitting
+    //   // this generates a separate chunk (About.[hash].js) for this route
+    //   // which is lazy-loaded when the route is visited.
+    //   component: () => import('../views/AboutView.vue')
+    // },
+
     {
       path: '/:pathMatch(.*)',
       redirect: '/'
