@@ -35,11 +35,13 @@ const toggleAudio = () => {
 
 
       <!-- ***************************************** MUSIC ***************************************** -->
-      <button class="fixed top-16 right-3 z-10 p-4 bg-rose-400 fill-rose-100 rounded-full mx-auto" @click="toggleAudio">
-
-        <span  v-if="isPlaying"><svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M48 64C21.5 64 0 85.5 0 112L0 400c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48L48 64zm192 0c-26.5 0-48 21.5-48 48l0 288c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48l-32 0z"/></svg></span>
-
-        <span  v-else><svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span>
+      <button class="fixed top-16 right-5 z-10 px-3 py-4 bg-rose-400 fill-rose-100 rounded-full flex justify-center" @click="toggleAudio">
+        
+        <span v-if="isPlaying"><svg class="h-2 w-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M48 64C21.5 64 0 85.5 0 112L0 400c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48L48 64zm192 0c-26.5 0-48 21.5-48 48l0 288c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48l-32 0z"/></svg></span>
+        
+        <span v-else><svg class="h-2 w-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span>
+        
+        <span class=""><svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M499.1 6.3c8.1 6 12.9 15.6 12.9 25.7l0 72 0 264c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6L448 147 192 223.8 192 432c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6L128 200l0-72c0-14.1 9.3-26.6 22.8-30.7l320-96c9.7-2.9 20.2-1.1 28.3 5z"/></svg></span>
 
       </button>
 
@@ -95,7 +97,7 @@ const toggleAudio = () => {
         <!-- Comentario final -->
         <div class="bg-rose-100 border border-rose-600 grid text-center items-center px-5 py-10 my-10">
       
-          <p class="text-rose-500 text-xl playwrite-gbs-font font-extralight">Esperamos poder compartir un momento con vos.</p>
+          <p class="text-rose-500 text-xl playwrite-gbs-font font-extralight">Esperamos poder compartir este momento con vos.</p>
           <p class="text-rose-400 text-sm text-end mt-3 roboto-font">- Nina y Aitana.</p>
       
         </div>
