@@ -10,7 +10,7 @@ AOS.init({
 </script>
 
 <template>
-  <div class="grid grid-cols-12 gap-1 h-60 w-full text-pink-900 fill-pink-950 mt-8 tracking-widest bangers-font relative">
+  <div class="grid grid-cols-12 gap-1 h-60 w-full text-rose-400 fill-rose-600 mt-8 tracking-widest bangers-font relative">
 
     <img class="absolute -ml-8 h-full max-h-56 rounded-xl" src="/aaaa_c_ninayaitana/images/gallery/gallery_5.jpeg" alt="" data-aos="fade-right">
     <div class="col-span-4"></div>
@@ -22,11 +22,11 @@ AOS.init({
   
       <p class="text-center text-2xl font-bold">Ubicacion</p>
   
-      <p class="text-center text-sm">Arenales 356</p>
+      <p class="text-center text-sm">Independencia del Peru 453</p>
       <p class="text-center text-sm">17 de Nov</p>
       <p class="text-center text-sm">16 Hs.</p>
   
-      <a class="mx-auto my-5 text-sm rounded text-center text-pink-800 fill-pink-800 bg-pink-100 p-3 flex gap-2 items-center"
+      <a class="mx-auto my-5 text-sm rounded text-center text-rose-600 fill-rose-600 bg-pink-100 p-3 flex gap-2 items-center"
               href="https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Aires/Pilar,+Provincia+de+Buenos+Aires/@-34.0686594,-59.9487219,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x95ba22ed0eb1a55f:0xe5f2bb57c8ee993a!2m2!1d-59.6628664!2d-33.6757835!1m5!1m1!1s0x95bc9cb6643d2003:0xa8da0402f634b636!2m2!1d-58.9153722!2d-34.4663154!3e0?entry=ttu&g_ep=EgoyMDI0MTAyMi4wIKXMDSoASAFQAw%3D%3D">
   
               <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M384 476.1L192 421.2l0-385.3L384 90.8l0 385.3zm32-1.2l0-386.5L543.1 37.5c15.8-6.3 32.9 5.3 32.9 22.3l0 334.8c0 9.8-6 18.6-15.1 22.3L416 474.8zM15.1 95.1L160 37.2l0 386.5L32.9 474.5C17.1 480.8 0 469.2 0 452.2L0 117.4c0-9.8 6-18.6 15.1-22.3z"/></svg>

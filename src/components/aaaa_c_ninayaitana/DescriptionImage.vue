@@ -29,7 +29,7 @@ AOS.init({
 
             <!-- Modal toggle -->
             <button data-modal-target="default-modal" data-modal-toggle="default-modal"
-                class="mx-auto my-5 text-sm rounded text-center text-pink-800 fill-pink-800 bg-pink-100 p-3 flex gap-2 items-center"
+                class="mx-auto my-5 text-sm rounded text-center text-rose-400 fill-rose-400 bg-rose-100 p-3 flex gap-2 items-center"
                 type="button">
                 Apreta este boton
             </button>

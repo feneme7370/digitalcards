@@ -1,6 +1,6 @@
 <script setup>
     import { computed, ref, onMounted, onUnmounted } from 'vue';
-    const targetDate = new Date('2024-11-17 17:00:00').getTime(); // Fecha objetivo
+    const targetDate = new Date('2024-11-17 16:00:00').getTime(); // Fecha objetivo
     const timeRemaining = ref(null);
     let intervalId = null;
 
@@ -43,18 +43,18 @@
 
 <template>
   <div class="text-center my-16" data-aos="zoom-in" data-aos-delay="500">
-    <h2 class="text-xl font-bold text-pink-950 bangers-font tracking-wider">Solo faltan</h2>
+    <h2 class="text-xl font-bold text-rose-400 bangers-font tracking-wider">Solo faltan</h2>
     
     <div v-if="timeRemaining">
 
-      <p class="mt-8 font-bold text-xl">{{ timeRemaining.days }} dias</p>
+      <p class="mt-8 font-bold text-xl text-rose-400">{{ timeRemaining.days }} dias</p>
 
       <div class="flex gap-2 justify-center items-center italic mt-3">
-        <span class="bg-pink-300 rounded-lg p-3">{{ timeRemaining.hours }} hs.</span>
+        <span class="bg-rose-200 text-rose-500 rounded-lg p-3">{{ timeRemaining.hours }} hs.</span>
         <span>:</span>
-        <span class="bg-pink-300 rounded-lg p-3">{{ timeRemaining.minutes }} min.</span>
+        <span class="bg-rose-200 text-rose-500 rounded-lg p-3">{{ timeRemaining.minutes }} min.</span>
         <span>:</span>
-        <span class="bg-pink-300 rounded-lg p-3">{{ timeRemaining.seconds }} seg.</span>
+        <span class="bg-rose-200 text-rose-500 rounded-lg p-3">{{ timeRemaining.seconds }} seg.</span>
       </div>
 
     </div>

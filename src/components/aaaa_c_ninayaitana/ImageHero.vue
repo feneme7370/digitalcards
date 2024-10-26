@@ -18,13 +18,12 @@ AOS.init({
 
 		<!-- descripcion sobre la portada -->
 		<div
-			class="absolute top-0 right-0 bottom-0 left-0 h-full px-1 mx-auto max-w-screen-xl text-center flex flex-col items-center justify-start text-pink-900">
+			class="absolute top-0 right-0 bottom-0 left-0 h-full  mx-auto max-w-screen-xl text-center flex flex-col items-center justify-start text-rose-400">
 
-			<div class="bg-pink-100 rounded-xl my-10 py-5 px-2 grid gap-3">
-				<h1 class="mb-2 text-2xl bangers-font tracking-wider" data-aos="fade-up">Cumple Mellis</h1>
+			<div class="bg-rose-100 my-10 py-5 w-full grid gap-3">
+				<h1 class="mb-2 text-2xl bangers-font tracking-wider" data-aos="fade-up">Nuestro primer añito</h1>
 
-				<p class=" text-xl sm:px-16 ease-linear playwrite-gbs-font font-extralight" data-aos="fade-up">Nuestro
-					primer añito</p>
+				<p class=" text-xl sm:px-16 ease-linear playwrite-gbs-font font-extralight" data-aos="fade-up">Nina y Aitana</p>
 			</div>
 
 		</div>

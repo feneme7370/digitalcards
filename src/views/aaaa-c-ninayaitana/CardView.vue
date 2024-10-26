@@ -35,7 +35,7 @@ const toggleAudio = () => {
 
 
       <!-- ***************************************** MUSIC ***************************************** -->
-      <button class="fixed top-10 right-2 z-10 p-4 bg-pink-950 fill-pink-100 rounded-full mx-auto" @click="toggleAudio">
+      <button class="fixed top-16 right-3 z-10 p-4 bg-rose-400 fill-rose-100 rounded-full mx-auto" @click="toggleAudio">
 
         <span  v-if="isPlaying"><svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M48 64C21.5 64 0 85.5 0 112L0 400c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48L48 64zm192 0c-26.5 0-48 21.5-48 48l0 288c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48l-32 0z"/></svg></span>
 
@@ -93,10 +93,10 @@ const toggleAudio = () => {
         <Ubication/>
        
         <!-- Comentario final -->
-        <div class="bg-pink-200 border border-pink-950 grid text-center items-center px-5 py-10 my-10">
+        <div class="bg-rose-100 border border-rose-600 grid text-center items-center px-5 py-10 my-10">
       
-          <p class="text-pink-900 text-xl playwrite-gbs-font font-extralight">Esperamos poder compartir un momento con vos.</p>
-          <p class="text-pink-900 text-sm text-end mt-3 roboto-font">- Nina y Aitana.</p>
+          <p class="text-rose-500 text-xl playwrite-gbs-font font-extralight">Esperamos poder compartir un momento con vos.</p>
+          <p class="text-rose-400 text-sm text-end mt-3 roboto-font">- Nina y Aitana.</p>
       
         </div>
 
