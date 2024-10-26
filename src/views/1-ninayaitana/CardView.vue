@@ -1,9 +1,9 @@
 <script setup>
 import ImageHero from '@/components/1-ninayaitana/ImageHero.vue'
+import DescriptionInvite from '@/components/1-ninayaitana/DescriptionInvite.vue'
 import Gallery from '@/components/1-ninayaitana/Gallery.vue'
 import Ubication from '@/components/1-ninayaitana/Ubication.vue'
 import CountDate from '@/components/1-ninayaitana/CountDate.vue'
-import DescriptionInvite from '@/components/1-ninayaitana/DescriptionInvite.vue'
 import DescriptionImage from '@/components/1-ninayaitana/DescriptionImage.vue'
 import Confirm from '@/components/1-ninayaitana/Confirm.vue'
 
@@ -11,6 +11,20 @@ import ImgLightbox from '@/components/sistem/ImgLightbox.vue'
 
 import { ref, onMounted, onUnmounted } from 'vue';
 
+import { initFlowbite } from 'flowbite'
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init({
+  duration: 1000, // Duración de la animación en milisegundos
+  once: true,     // La animación ocurre solo una vez al hacer scroll
+  delay: 200,
+});
+// initialize components based on data attribute selectors
+onMounted(() => {
+    initFlowbite();
+})
 
 const isPlaying = ref(false);
 
@@ -45,10 +59,10 @@ const toggleAudio = () => {
         <source src="/src/assets/songs/soy_una_serpiente_reino_infantil.mp3" type="audio/mpeg">
       </audio>
 
-            <!-- ***************************************** Portada ***************************************** -->
+      <!-- ***************************************** Portada ***************************************** -->
       <ImageHero/>
   
-      <!-- Comentario con logo -->
+      <!-- ***************************************** Portada ***************************************** -->
       <DescriptionInvite class="border-b border-pink-950"/>
        
       <!-- Imagen completa de protagonista -->

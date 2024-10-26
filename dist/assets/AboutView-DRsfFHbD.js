@@ -1,0 +1,1 @@
+import{_ as r,a as s}from"./DescriptionInvite-D6QDjTfW.js";import{c as o,d as t,f as a,F as n,b as _}from"./index-0gYIG96r.js";const f={__name:"AboutView",setup(c){return(m,e)=>(_(),o(n,null,[e[0]||(e[0]=t("h2",null,"sobre",-1)),a(r),a(s,{class:"border-b border-pink-950"})],64))}};export{f as default};

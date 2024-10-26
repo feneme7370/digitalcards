@@ -14,6 +14,7 @@ app.use(createPinia())
 app.use(router)
 
 app.mount('#app')
+
 import { onMounted } from 'vue'
 import { initFlowbite } from 'flowbite'
 
