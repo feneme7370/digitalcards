@@ -1,13 +1,13 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue';
 
-import ImageHero from '@/components/aaaa-c-NinaAitana/ImageHero.vue'
-import DescriptionInvite from '@/components/aaaa-c-NinaAitana/DescriptionInvite.vue'
-import Gallery from '@/components/aaaa-c-NinaAitana/Gallery.vue'
-import Ubication from '@/components/aaaa-c-NinaAitana/Ubication.vue'
-import CountDate from '@/components/aaaa-c-NinaAitana/CountDate.vue'
-import DescriptionImage from '@/components/aaaa-c-NinaAitana/DescriptionImage.vue'
-import Confirm from '@/components/aaaa-c-NinaAitana/Confirm.vue'
+import ImageHero from '@/components/aaaa_c_ninayaitana/ImageHero.vue'
+import DescriptionInvite from '@/components/aaaa_c_ninayaitana/DescriptionInvite.vue'
+import Gallery from '@/components/aaaa_c_ninayaitana/Gallery.vue'
+import Ubication from '@/components/aaaa_c_ninayaitana/Ubication.vue'
+import CountDate from '@/components/aaaa_c_ninayaitana/CountDate.vue'
+import DescriptionImage from '@/components/aaaa_c_ninayaitana/DescriptionImage.vue'
+import Confirm from '@/components/aaaa_c_ninayaitana/Confirm.vue'
 
 
 import ImgLightbox from '@/components/sistem/ImgLightbox.vue'
@@ -56,7 +56,7 @@ const toggleAudio = () => {
       <!-- Imagen completa de protagonista -->
       <ImgLightbox
            class="h-20" 
-           name="/aaaa-c-NinaAitana/images/image_portate.jpeg"
+           name="/aaaa_c_ninayaitana/images/image_portate.jpeg"
            nameImg="imagen_1"
            nameAlbum="portada"
        />
@@ -69,7 +69,7 @@ const toggleAudio = () => {
     
           <!-- imagen -->
           <div class="w-full">
-              <img src="/aaaa-c-NinaAitana/images/images/images_1.jpeg" alt="imagen portada" class="w-full object-cover opacity-80">
+              <img src="/aaaa_c_ninayaitana/images/images/images_1.jpeg" alt="imagen portada" class="w-full object-cover opacity-80">
           </div>
     
           <!-- texto sobre la imagen -->
