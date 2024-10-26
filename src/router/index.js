@@ -18,6 +18,18 @@ const router = createRouter({
       // component: () => import(`../views/${route.params.cardId}/CardView.vue`),
       component: () => import(`../views/aaaa-c-NinaAitana/CardView.vue`),
     },
+    {
+      path: '/aaaa_c_ninayaitana',
+      name: 'aaaa_c_ninayaitana',
+      // component: () => import(`../views/${route.params.cardId}/CardView.vue`),
+      component: () => import(`../views/aaaa_c_ninayaitana/CardView.vue`),
+    },
+    {
+      path: '/ninayaitana',
+      name: 'ninayaitana',
+      // component: () => import(`../views/${route.params.cardId}/CardView.vue`),
+      component: () => import(`../views/ninayaitana/CardView.vue`),
+    },
     // {
     //   path: '/about',
     //   name: 'about',
