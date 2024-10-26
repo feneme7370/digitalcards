@@ -19,6 +19,12 @@ const router = createRouter({
       component: () => import(`../views/1-ninayaitana/CardView.vue`),
     },
     {
+      path: '/ninayaitana',
+      name: 'ninayaitana',
+      // component: () => import(`../views/${route.params.cardId}/CardView.vue`),
+      component: () => import(`../views/cumpleNinaAitana/CardView.vue`),
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
