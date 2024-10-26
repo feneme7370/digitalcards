@@ -8,6 +8,6 @@
     Nina y Aitana.
   </router-link>
 <router-link :to="{name : 'about'}" class="">
-    Sobre.
+    Sobre..
   </router-link>
 </template>
