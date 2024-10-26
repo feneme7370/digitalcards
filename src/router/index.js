@@ -19,6 +19,24 @@ const router = createRouter({
       // component: () => import(`../views/${route.params.cardId}/CardView.vue`),
       component: () => import(`../views/aaaa_c_ninayaitana/CardView.vue`),
     },
+    {
+      path: '/aaaa-c-ninayaitana',
+      name: 'aaaa-c-ninayaitana',
+      // component: () => import(`../views/${route.params.cardId}/CardView.vue`),
+      component: () => import(`../views/aaaa-c-ninayaitana/CardView.vue`),
+    },
+    {
+      path: '/ninayaitana',
+      name: 'ninayaitana',
+      // component: () => import(`../views/${route.params.cardId}/CardView.vue`),
+      component: () => import(`../views/ninayaitana/CardView.vue`),
+    },
+    {
+      path: '/ninayaitana0001',
+      name: 'ninayaitana0001',
+      // component: () => import(`../views/${route.params.cardId}/CardView.vue`),
+      component: () => import(`../views/ninayaitana0001/CardView.vue`),
+    },
     // {
     //   path: '/about',
     //   name: 'about',
