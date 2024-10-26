@@ -10,7 +10,7 @@
     </span> -->
     <img class="rounded-full mx-auto border-2 border-pink-950" src="/1-ninayaitana/images/images/images_4.jpeg" alt="" data-aos="zoom-in">
 
-    <h2 class="text-center text-lg px-2 bangers-font tracking-wider" data-aos="fade-up">¡¡ Queremos invitarte a festejar nuestro primer año con vos !!</h2>
+    <h2 class="text-center text-lg px-2 bangers-font tracking-wider" data-aos="fade-up">¡¡ 🎂 Queremos invitarte a festejar nuestro primer año con vos 🎉 !!</h2>
 
   </div>
 

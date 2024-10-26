@@ -5,7 +5,7 @@
 <template>
     <div class="bg-pink-200 grid text-center items-center px-5 py-10">
 
-        <p class="text-pink-900 text-lg mb-3 bangers-font tracking-wider">Nos gustaria que nos confirmes tu asistencia</p>
+        <p class="text-pink-900 text-lg mb-3 bangers-font tracking-wider">Nos gustaria que nos confirmes tu asistencia 🎈</p>
 
         <a class="mx-auto my-5 text-sm rounded text-center text-pink-800 fill-pink-800 bg-pink-100 p-3 flex gap-2 items-center"
             href="https://api.whatsapp.com/send/?phone=5492396513953&text=Te confirmo la asistencia">

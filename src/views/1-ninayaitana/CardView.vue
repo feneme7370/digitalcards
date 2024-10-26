@@ -9,17 +9,53 @@ import Confirm from '@/components/1-ninayaitana/Confirm.vue'
 
 import ImgLightbox from '@/components/sistem/ImgLightbox.vue'
 
-// const image
+import { ref, onMounted, onUnmounted } from 'vue';
+
+
+const isPlaying = ref(false);
+
+const toggleAudio = () => {
+    if (music) {
+      if (isPlaying.value) {
+        music.pause();
+      } else {
+        music.play();
+      }
+      isPlaying.value = !isPlaying.value;
+    }
+  };
+ onMounted( () => {
+   music.play()
+   isPlaying.value = true
+ })
 </script>
 
 <template>
   <div class="bg-pink-100">
-    <div class="bg-pink-50 montserrat-font text-pink-800 overflow-hidden mx-auto max-w-lg">
+    <div class="bg-pink-50 montserrat-font text-pink-800 overflow-hidden mx-auto max-w-lg relative">
 
+
+      <!-- ***************************************** MUSIC ***************************************** -->
+
+      <button class="fixed top-10 right-2 z-10 p-4 bg-pink-950 fill-pink-100 rounded-full mx-auto" @click="toggleAudio">
+
+        <span  v-if="isPlaying"><svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M48 64C21.5 64 0 85.5 0 112L0 400c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48L48 64zm192 0c-26.5 0-48 21.5-48 48l0 288c0 26.5 21.5 48 48 48l32 0c26.5 0 48-21.5 48-48l0-288c0-26.5-21.5-48-48-48l-32 0z"/></svg></span>
+
+        <span  v-else><svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span>
+
+      </button>
+
+      <audio id="music" loop class="hidden">
+        <source src="/src/assets/songs/soy_una_serpiente_reino_infantil.mp3" type="audio/mpeg">
+      </audio>
+
+            <!-- ***************************************** Portada ***************************************** -->
       <ImageHero/>
   
+      <!-- Comentario con logo -->
       <DescriptionInvite class="border-b border-pink-950"/>
        
+      <!-- Imagen completa de protagonista -->
       <ImgLightbox
            class="h-20" 
            name="/1-ninayaitana/images/image_portate.jpeg"
@@ -27,8 +63,10 @@ import ImgLightbox from '@/components/sistem/ImgLightbox.vue'
            nameAlbum="portada"
        />
   
+       <!-- Contador de dias -->
        <CountDate/>
   
+       <!-- Imagen conejo intermedia con texto-->
         <section class="w-full relative bg-pink-200 overflow-hidden bg-center bg-no-repeat border-t-2 border-b-2 border-primary-300">
     
           <!-- imagen -->
@@ -44,21 +82,22 @@ import ImgLightbox from '@/components/sistem/ImgLightbox.vue'
           </div>
         </section>
   
-  
-     
+        <!-- Boton con comentario e imagen a la derecha -->
         <DescriptionImage/>
        
+        <!-- Confirmar asistencia -->
         <Confirm/>
     
-        
+        <!-- Galleria de imagenes -->
         <Gallery />
       
+        <!-- Ubicacion de mapa -->
         <Ubication/>
        
-     
+        <!-- Comentario final -->
         <div class="bg-pink-200 border border-pink-950 grid text-center items-center px-5 py-10 my-10">
       
-          <p class="text-pink-900 text-xl henny-penny-font">Esperamos poder compartir un momento con vos.</p>
+          <p class="text-pink-900 text-xl playwrite-gbs-font font-extralight">Esperamos poder compartir un momento con vos.</p>
           <p class="text-pink-900 text-sm text-end mt-3 roboto-font">- Nina y Aitana.</p>
       
         </div>

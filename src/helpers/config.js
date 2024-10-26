@@ -6,9 +6,11 @@ setMessage({"ABOUT_CATEGORY_TITLE":"Acerca de","ADDED_TO_QUEUE":"Se agregó a la
 
 <meta name="theme-color" content="rgba(33, 33, 33, 0.98)">
 
-<link rel="search" type="application/opensearchdescription+xml" href="https://www.youtube.com/opensearch?locale=es_MX" title="YouTube"><link rel="manifest" href="/manifest.webmanifest" crossorigin="use-credentials"><script nonce="1W2b0hbZ7iXI7c0OHNJPmg">if (window.ytcsi) {window.ytcsi.tick('bc', null, '');}</script><link rel="preload" href="https://rr4---sn-uxax4vopj55gb-x1xl.googlevideo.com/generate_204" as="fetch"><link rel="preload" href="https://rr4---sn-uxax4vopj55gb-x1xl.googlevideo.com/generate_204?conn2" as="fetch"><link rel="canonical" href="https://www.youtube.com/watch?v=V2Q1eRUlnlM"><link rel="alternate" media="handheld" href="https://m.youtube.com/watch?v=V2Q1eRUlnlM"><link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.youtube.com/watch?v=V2Q1eRUlnlM"><title>CURSO de PHP: Aprende Funciones, Clases, Imports y más - YouTube</title><meta name="title" content="CURSO de PHP: Aprende Funciones, Clases, Imports y más"><meta name="description" content="¡Aprende PHP desde cero! 🚀 Descubre cómo llamar a APIs, dominar funciones y tipos, y mucho más. Desde la creación de clases hasta el manejo experto de archi..."><meta name="keywords" content="midudev, midudev twitch"><link rel="shortlinkUrl" href="https://youtu.be/V2Q1eRUlnlM"><link rel="alternate" href="android-app://com.google.android.youtube/http/www.youtube.com/watch?v=V2Q1eRUlnlM"><link rel="alternate" href="ios-app://544007664/vnd.youtube/www.youtube.com/watch?v=V2Q1eRUlnlM"><link rel="alternate" type="application/json+oembed" href="https://www.youtube.com/oembed?format=json&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DV2Q1eRUlnlM" title="CURSO de PHP: Aprende Funciones, Clases, Imports y más"><link rel="alternate" type="text/xml+oembed" href="https://www.youtube.com/oembed?format=xml&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DV2Q1eRUlnlM" title="CURSO de PHP: Aprende Funciones, Clases, Imports y más"><link rel="image_src" href="https://i.ytimg.com/vi/V2Q1eRUlnlM/maxresdefault.jpg">
+<link rel="search" type="application/opensearchdescription+xml" href="https://www.youtube.com/opensearch?locale=es_MX" title="YouTube"><link rel="manifest" href="/manifest.webmanifest" crossorigin="use-credentials"><script nonce="1W2b0hbZ7iXI7c0OHNJPmg">if (window.ytcsi) {window.ytcsi.tick('bc', null, '');}</script><link rel="preload" href="https://rr4---sn-uxax4vopj55gb-x1xl.googlevideo.com/generate_204" as="fetch"><link rel="preload" href="https://rr4---sn-uxax4vopj55gb-x1xl.googlevideo.com/generate_204?conn2" as="fetch"><link rel="canonical" href="https://www.youtube.com/watch?v=V2Q1eRUlnlM"><link rel="alternate" media="handheld" href="https://m.youtube.com/watch?v=V2Q1eRUlnlM"><link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.youtube.com/watch?v=V2Q1eRUlnlM"><title>CURSO de PHP: Aprende Funciones, Clases, Imports y más - YouTube</title><meta name="title" content="CURSO de PHP: Aprende Funciones, Clases, Imports y más"><meta name="description" content="¡Aprende PHP desde cero! 🚀 Descubre cómo llamar a APIs, dominar funciones y tipos, y mucho más. Desde la creación de clases hasta el manejo experto de archi..."><meta name="keywords" content="midudev, midudev twitch"><link rel="shortlinkUrl" href="https://youtu.be/V2Q1eRUlnlM"><link rel="alternate" href="android-app://com.google.android.youtube/http/www.youtube.com/watch?v=V2Q1eRUlnlM"><link rel="alternate" href="ios-app://544007664/vnd.youtube/www.youtube.com/watch?v=V2Q1eRUlnlM"><link rel="alternate" type="application/json+oembed" href="https://www.youtube.com/oembed?format=json&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DV2Q1eRUlnlM" title="CURSO de PHP: Aprende Funciones, Clases, Imports y más"><link rel="alternate" type="text/xml+oembed" href="https://www.youtube.com/oembed?format=xml&amp;url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DV2Q1eRUlnlM" title="CURSO de PHP: Aprende Funciones, Clases, Imports y más">
 
-<meta property="og:site_name" content="YouTube">
+<link rel="image_src" href="https://i.ytimg.com/vi/V2Q1eRUlnlM/maxresdefault.jpg">
+
+{/* <meta property="og:site_name" content="YouTube"> */}
 
 <meta property="og:url" content="https://www.youtube.com/watch?v=V2Q1eRUlnlM">
 
@@ -100,7 +102,19 @@ setMessage({"ABOUT_CATEGORY_TITLE":"Acerca de","ADDED_TO_QUEUE":"Se agregó a la
 
 <meta itemprop="identifier" content="V2Q1eRUlnlM">
 
-<meta itemprop="duration" content="PT95M41S"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><link itemprop="url" href="http://www.youtube.com/@midulive"><link itemprop="name" content="midulive"></span><script type="application/ld+json" nonce="1W2b0hbZ7iXI7c0OHNJPmg">{"@context": "http://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@id": "http:\/\/www.youtube.com\/@midulive", "name": "midulive"}}]}</script><link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi/V2Q1eRUlnlM/maxresdefault.jpg"><span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject"><link itemprop="url" href="https://i.ytimg.com/vi/V2Q1eRUlnlM/maxresdefault.jpg">
+<meta itemprop="duration" content="PT95M41S">
+
+<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+
+<link itemprop="url" href="http://www.youtube.com/@midulive"><link itemprop="name" content="midulive"></span>
+
+<script type="application/ld+json" nonce="1W2b0hbZ7iXI7c0OHNJPmg">{"@context": "http://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@id": "http:\/\/www.youtube.com\/@midulive", "name": "midulive"}}]}</script>
+
+<link itemprop="thumbnailUrl" href="https://i.ytimg.com/vi/V2Q1eRUlnlM/maxresdefault.jpg">
+
+<span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+
+<link itemprop="url" href="https://i.ytimg.com/vi/V2Q1eRUlnlM/maxresdefault.jpg">
 
 <meta itemprop="width" content="1280">
 
