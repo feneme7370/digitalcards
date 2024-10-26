@@ -1,16 +1,4 @@
 <script setup>
-import ImageHero from '@/components/1-ninayaitana/ImageHero.vue'
-import DescriptionInvite from '@/components/1-ninayaitana/DescriptionInvite.vue'
-import Gallery from '@/components/1-ninayaitana/Gallery.vue'
-import Ubication from '@/components/1-ninayaitana/Ubication.vue'
-
-
-import CountDate from '@/components/1-ninayaitana/CountDate.vue'
-import DescriptionImage from '@/components/1-ninayaitana/DescriptionImage.vue'
-import Confirm from '@/components/1-ninayaitana/Confirm.vue'
-
-import ImgLightbox from '@/components/sistem/ImgLightbox.vue'
-
 import { ref, onMounted, onUnmounted } from 'vue';
 
 import { initFlowbite } from 'flowbite'
@@ -27,6 +15,19 @@ AOS.init({
 onMounted(() => {
     initFlowbite();
 })
+
+import ImageHero from '@/components/1-ninayaitana/ImageHero.vue'
+import DescriptionInvite from '@/components/1-ninayaitana/DescriptionInvite.vue'
+import Gallery from '@/components/1-ninayaitana/Gallery.vue'
+import Ubication from '@/components/1-ninayaitana/Ubication.vue'
+import CountDate from '@/components/1-ninayaitana/CountDate.vue'
+import DescriptionImage from '@/components/1-ninayaitana/DescriptionImage.vue'
+import Confirm from '@/components/1-ninayaitana/Confirm.vue'
+
+
+import ImgLightbox from '@/components/sistem/ImgLightbox.vue'
+
+
 
 const isPlaying = ref(false);
 

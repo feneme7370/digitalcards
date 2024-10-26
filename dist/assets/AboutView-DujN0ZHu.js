@@ -1,0 +1,1 @@
+import{_ as s,a as o}from"./DescriptionImage-RuWIVJbu.js";import{c as r,b as t,d as a,F as n,o as _}from"./index-Cdp8y9A5.js";const u={__name:"AboutView",setup(m){return(c,e)=>(_(),r(n,null,[e[0]||(e[0]=t("h2",null,"sobre",-1)),a(s),a(o)],64))}};export{u as default};
