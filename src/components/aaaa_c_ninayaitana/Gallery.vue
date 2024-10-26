@@ -18,7 +18,7 @@ AOS.init({
     <div data-aos="zoom-in">
         <ImgLightbox
             class="img-gallery"
-            name="/aaaa-c-NinaAitana/images/gallery/gallery_1.jpeg"
+            name="/aaaa_c_ninayaitana/images/gallery/gallery_1.jpeg"
             nameImg="imagen_1"
             nameAlbum="galeria"
         />
@@ -26,7 +26,7 @@ AOS.init({
     <div data-aos="zoom-in">
         <ImgLightbox
             class="img-gallery"
-            name="/aaaa-c-NinaAitana/images/gallery/gallery_4.jpeg"
+            name="/aaaa_c_ninayaitana/images/gallery/gallery_4.jpeg"
             nameImg="imagen_4"
             nameAlbum="galeria"
         />
@@ -34,7 +34,7 @@ AOS.init({
     <div data-aos="zoom-in">
         <ImgLightbox
             class="img-gallery"
-            name="/aaaa-c-NinaAitana/images/gallery/gallery_3.jpeg"
+            name="/aaaa_c_ninayaitana/images/gallery/gallery_3.jpeg"
             nameImg="imagen_3"
             nameAlbum="galeria"
         />
@@ -42,7 +42,7 @@ AOS.init({
     <div data-aos="zoom-in">
         <ImgLightbox
             class="img-gallery"
-            name="/aaaa-c-NinaAitana/images/gallery/gallery_2.jpeg"
+            name="/aaaa_c_ninayaitana/images/gallery/gallery_2.jpeg"
             nameImg="imagen_2"
             nameAlbum="galeria"
         />

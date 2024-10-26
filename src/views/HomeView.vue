@@ -4,7 +4,7 @@
 <template>
 <h2>DigitalCards</h2>
 
-<router-link :to="{name : 'aaaa-c-NinaAitana'}" class="">
+<router-link :to="{name : 'aaaa_c_ninayaitana'}" class="">
     Nina y Aitana.
   </router-link>
 
