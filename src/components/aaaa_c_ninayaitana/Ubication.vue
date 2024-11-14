@@ -23,7 +23,7 @@ AOS.init({
       <p class="text-center text-2xl font-bold">Ubicacion</p>
   
       <p class="text-center text-sm">Independencia del Peru 453</p>
-      <p class="text-center text-sm">17 de Nov</p>
+      <p class="text-center text-sm">18 de Nov</p>
       <p class="text-center text-sm">16 Hs.</p>
   
       <a class="mx-auto my-5 text-sm rounded text-center text-rose-600 fill-rose-600 bg-pink-100 p-3 flex gap-2 items-center"
