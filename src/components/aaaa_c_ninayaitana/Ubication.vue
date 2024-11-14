@@ -27,7 +27,7 @@ AOS.init({
       <p class="text-center text-sm">16 Hs.</p>
   
       <a class="mx-auto my-5 text-sm rounded text-center text-rose-600 fill-rose-600 bg-pink-100 p-3 flex gap-2 items-center"
-              href="https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Aires/Pilar,+Provincia+de+Buenos+Aires/@-34.0686594,-59.9487219,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x95ba22ed0eb1a55f:0xe5f2bb57c8ee993a!2m2!1d-59.6628664!2d-33.6757835!1m5!1m1!1s0x95bc9cb6643d2003:0xa8da0402f634b636!2m2!1d-58.9153722!2d-34.4663154!3e0?entry=ttu&g_ep=EgoyMDI0MTAyMi4wIKXMDSoASAFQAw%3D%3D">
+              href="https://www.google.com.ar/maps/place/Independencia+del+Per%C3%BA+453,+B6450AQI+Pehuaj%C3%B3,+Provincia+de+Buenos+Aires/@-35.7982523,-61.8979608,17z/data=!3m1!4b1!4m5!3m4!1s0x95c0f9da7725f0bf:0x6d845d35ce433cc2!8m2!3d-35.7982567!4d-61.8953859?entry=ttu&g_ep=EgoyMDI0MTExMS4wIKXMDSoASAFQAw%3D%3D">
   
               <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M384 476.1L192 421.2l0-385.3L384 90.8l0 385.3zm32-1.2l0-386.5L543.1 37.5c15.8-6.3 32.9 5.3 32.9 22.3l0 334.8c0 9.8-6 18.6-15.1 22.3L416 474.8zM15.1 95.1L160 37.2l0 386.5L32.9 474.5C17.1 480.8 0 469.2 0 452.2L0 117.4c0-9.8 6-18.6 15.1-22.3z"/></svg>
               <span class=" font-light  w-auto  hover:shadow-sm">
