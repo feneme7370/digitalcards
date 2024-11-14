@@ -54,6 +54,9 @@ font-family: 'PlaywriteGBS', sans-serif;
 .img-gallery img {
   @apply rounded-xl;
 }
+.img-gallery-mh96 img {
+  @apply min-h-96;
+}
 .animate_hidden {
    @apply opacity-0;
 }

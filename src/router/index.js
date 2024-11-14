@@ -20,6 +20,12 @@ const router = createRouter({
       // component: () => import(`../views/${route.params.cardId}/CardView.vue`),
       component: () => import(`../views/aaaa-c-ninayaitana/CardView.vue`),
     },
+    {
+      path: '/fedemarascoycintinavarro',
+      name: 'fedemarascoycintinavarro',
+      // component: () => import(`../views/${route.params.cardId}/CardView.vue`),
+      component: () => import(`../views/aaaa-b-fedeycinti/CardView.vue`),
+    },
 
     // {
     //   path: '/about',

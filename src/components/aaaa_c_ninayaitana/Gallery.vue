@@ -17,7 +17,7 @@ AOS.init({
 <div class="grid grid-cols-2 gap-4 px-1 py-5">
     <div data-aos="zoom-in">
         <ImgLightbox
-            class="img-gallery"
+            class="img-gallery img-gallery-mh96"
             name="/aaaa_c_ninayaitana/images/gallery/gallery_1.jpeg"
             nameImg="imagen_1"
             nameAlbum="galeria"
@@ -25,7 +25,7 @@ AOS.init({
     </div>
     <div data-aos="zoom-in">
         <ImgLightbox
-            class="img-gallery"
+            class="img-gallery img-gallery-mh96"
             name="/aaaa_c_ninayaitana/images/gallery/gallery_4.jpeg"
             nameImg="imagen_4"
             nameAlbum="galeria"
@@ -33,7 +33,7 @@ AOS.init({
     </div>
     <div data-aos="zoom-in">
         <ImgLightbox
-            class="img-gallery"
+            class="img-gallery img-gallery-mh96"
             name="/aaaa_c_ninayaitana/images/gallery/gallery_3.jpeg"
             nameImg="imagen_3"
             nameAlbum="galeria"
@@ -41,7 +41,7 @@ AOS.init({
     </div>
     <div data-aos="zoom-in">
         <ImgLightbox
-            class="img-gallery"
+            class="img-gallery img-gallery-mh96"
             name="/aaaa_c_ninayaitana/images/gallery/gallery_2.jpeg"
             nameImg="imagen_2"
             nameAlbum="galeria"

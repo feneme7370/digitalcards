@@ -1,6 +1,6 @@
 <script setup>
     import { computed, ref, onMounted, onUnmounted } from 'vue';
-    const targetDate = new Date('2024-11-17 16:00:00').getTime(); // Fecha objetivo
+    const targetDate = new Date('2024-11-17 18:00:00').getTime(); // Fecha objetivo
     const timeRemaining = ref(null);
     let intervalId = null;
 
