@@ -11,9 +11,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 AOS.init({
-  duration: 1000, // Duración de la animación en milisegundos
+    duration: 500, // Duración de la animación en milisegundos
   once: true,     // La animación ocurre solo una vez al hacer scroll
-  delay: 200,
+  // delay: 200,
 });
 </script>
 
