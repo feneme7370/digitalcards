@@ -24,7 +24,7 @@ AOS.init({
   
       <p class="text-center text-sm">Independencia del Peru 453</p>
       <p class="text-center text-sm">18 de Nov</p>
-      <p class="text-center text-sm">16 Hs.</p>
+      <p class="text-center text-sm">16 Hs. a 19 Hs.</p>
   
       <a class="mx-auto my-5 text-sm rounded text-center text-rose-600 fill-rose-600 bg-pink-100 p-3 flex gap-2 items-center"
               href="https://www.google.com.ar/maps/place/Independencia+del+Per%C3%BA+453,+B6450AQI+Pehuaj%C3%B3,+Provincia+de+Buenos+Aires/@-35.7982523,-61.8979608,17z/data=!3m1!4b1!4m5!3m4!1s0x95c0f9da7725f0bf:0x6d845d35ce433cc2!8m2!3d-35.7982567!4d-61.8953859?entry=ttu&g_ep=EgoyMDI0MTExMS4wIKXMDSoASAFQAw%3D%3D">
