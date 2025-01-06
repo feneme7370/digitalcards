@@ -15,16 +15,16 @@ const router = createRouter({
 
 
     {
-      path: '/aaaa-c-ninayaitana',
-      name: 'aaaa-c-ninayaitana',
+      path: '/241118_c_ninayaitana',
+      name: '241118_c_ninayaitana',
       // component: () => import(`../views/${route.params.cardId}/CardView.vue`),
-      component: () => import(`../views/aaaa-c-ninayaitana/CardView.vue`),
+      component: () => import(`../views/2024/241118_c_ninayaitana/CardView.vue`),
     },
     {
-      path: '/fedemarascoycintinavarro',
-      name: 'fedemarascoycintinavarro',
+      path: '/240113_b_fedeycinti',
+      name: '240113_b_fedeycinti',
       // component: () => import(`../views/${route.params.cardId}/CardView.vue`),
-      component: () => import(`../views/aaaa-b-fedeycinti/CardView.vue`),
+      component: () => import(`../views/2024/240113_b_fedeycinti/CardView.vue`),
     },
 
     // {
