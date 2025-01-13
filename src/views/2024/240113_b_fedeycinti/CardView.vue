@@ -229,7 +229,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
 
           <!-- Boton de modal -->
           <button data-modal-target="default-bank" data-modal-toggle="default-bank"
-            class="mx-auto my-5 text-sm rounded text-center text-amber-600 fill-amber-400 bg-orange-100 p-3 flex gap-2 items-center border-b border-amber-700"
+            class="mx-auto my-5 text-sm rounded text-center text-amber-800 fill-amber-600 bg-orange-100 p-3 flex gap-2 items-center border-b border-amber-700"
             type="button">
             Datos Bancarios
           </button>
@@ -243,7 +243,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
               <div class="relative bg-amber-50 rounded-lg shadow">
 
                 <!-- Modal header -->
-                <div class="flex items-center justify-between p-4 border-b border-amber-800 rounded-t bg-orange-100">
+                <div class="flex items-center justify-between p-4 border-b border-amber-800 rounded-t ">
                   <h3 class="text-sm font-semibold text-amber-900">
                     Cinti y Fede
                   </h3>
@@ -260,11 +260,11 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
                 </div>
 
                 <!-- Modal body -->
-                <div class="p-4 space-y-4 whitespace-pre-wrap italic text-center  ">
+                <div class="p-4 space-y-4 whitespace-pre-wrap italic text-center bg-white">
                   <p>Datos Bancarios</p>
-                  <p>Nombre del Titular: MARASCO FEDERICO</p>
-                  <p>CBU: 12345623561</p>
-                  <p>Alias: fede.marasco</p>
+                  <p>Nombre del Titular: <br>MARASCO FEDERICO</p>
+                  <p>CBU: <br>12345623561</p>
+                  <p>Alias: <br>fede.marasco</p>
                   <p>DNI: 32200552</p>
                   <p>Banco Provincia</p>
                 </div>
@@ -285,7 +285,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
 
             <!-- Boton de modal -->
             <button data-modal-target="default-modal" data-modal-toggle="default-modal"
-              class="-ml-10 mx-auto my-5 text-sm rounded text-center text-amber-400 fill-amber-400 bg-orange-100 p-3 flex gap-2 items-center border-b border-amber-700"
+              class="-ml-10 mx-auto my-5 text-sm rounded text-center text-amber-800 fill-amber-400 bg-orange-100 p-3 flex gap-2 items-center border-b border-amber-700"
               type="button">
               Presionar
             </button>
@@ -300,7 +300,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
 
                   <!-- Modal header -->
                   <div
-                    class="flex items-center justify-between p-4 border-b border-amber-800 rounded-t bg-amber-200">
+                    class="flex items-center justify-between p-4 border-b border-amber-800 rounded-t bg-amber-50">
                     <h3 class="text-sm font-semibold text-amber-900">
                       Cinti y Fede
                     </h3>
@@ -317,7 +317,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
                   </div>
 
                   <!-- Modal body -->
-                  <div class="p-4 space-y-4 whitespace-pre-wrap">
+                  <div class="p-4 space-y-4 whitespace-pre-wrap bg-gray-50">
                     <p class="text-xs italic py-5 text-amber-800 whitespace-pre-wrap">
                       💍 ¡Nos Casamos y Tú Eres Parte de Este Gran Momento! 💍
                       <br><br>
@@ -330,10 +330,10 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
                   </div>
 
                   <!-- Modal footer -->
-                  <div class="flex items-center max-h-20 p-4 border-t border-amber-800 rounded-b bg-amber-200">
+                  <div class="flex items-center max-h-20 p-4 border-t border-amber-800 rounded-b bg-gray-50">
                     <!-- <button data-modal-hide="default-modal" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">I accept</button> -->
                     <button data-modal-hide="default-modal" type="button"
-                      class="mx-auto my-5 text-sm rounded text-center text-amber-800 fill-amber-800 bg-amber-100 p-3 flex gap-2 items-center">Volver</button>
+                      class="mx-auto my-5 text-sm rounded text-center text-amber-800 fill-amber-800 bg-orange-50 p-3 flex gap-2 items-center">Volver</button>
                   </div>
 
                 </div>

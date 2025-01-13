@@ -210,7 +210,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
 
             <div class="relative">
 
-              <div class="flex items-center mb-8 montserrat">
+              <div class="flex items-center mb-8 montserrat " data-aos="zoom-in" data-aos-delay="500">
                 <div class="fondo-primario text-white rounded-full p-3">
                   <span class="text-lg mx-auto">20:00</span>
                 </div>
@@ -220,7 +220,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
                 </div>
               </div>
 
-              <div class="flex items-center mb-8 montserrat">
+              <div class="flex items-center mb-8 montserrat " data-aos="zoom-in" data-aos-delay="500">
                 <div class="fondo-primario text-white rounded-full p-3">
                   <span class="text-lg mx-auto">20:30</span>
                 </div>
@@ -230,7 +230,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
                 </div>
               </div>
 
-              <div class="flex items-center mb-8 montserrat">
+              <div class="flex items-center mb-8 montserrat " data-aos="zoom-in" data-aos-delay="500">
                 <div class="fondo-primario text-white rounded-full p-3">
                   <span class="text-lg mx-auto">21:00</span>
                 </div>
@@ -240,7 +240,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
                 </div>
               </div>
 
-              <div class="flex items-center mb-8 montserrat">
+              <div class="flex items-center mb-8 montserrat " data-aos="zoom-in" data-aos-delay="500">
                 <div class="fondo-primario text-white rounded-full p-3">
                   <span class="text-lg mx-auto">21:45</span>
                 </div>
@@ -250,7 +250,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
                 </div>
               </div>
 
-              <div class="flex items-center mb-8 montserrat">
+              <div class="flex items-center mb-8 montserrat " data-aos="zoom-in" data-aos-delay="500">
                 <div class="fondo-primario text-white rounded-full p-3">
                   <span class="text-lg mx-auto">23:00</span>
                 </div>
@@ -260,7 +260,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
                 </div>
               </div>
 
-              <div class="flex items-center mb-8 montserrat">
+              <div class="flex items-center mb-8 montserrat " data-aos="zoom-in" data-aos-delay="500">
                 <div class="fondo-primario text-white rounded-full p-3">
                   <span class="text-lg mx-auto">00:00</span>
                 </div>
@@ -270,7 +270,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
                 </div>
               </div>
 
-              <div class="flex items-center mb-8 montserrat">
+              <div class="flex items-center mb-8 montserrat " data-aos="zoom-in" data-aos-delay="500">
                 <div class="fondo-primario text-white rounded-full p-3">
                   <span class="text-lg mx-auto">02:30</span>
                 </div>
@@ -280,7 +280,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
                 </div>
               </div>
 
-              <div class="flex items-center mb-8 montserrat">
+              <div class="flex items-center mb-8 montserrat " data-aos="zoom-in" data-aos-delay="500">
                 <div class="fondo-primario text-white rounded-full p-3">
                   <span class="text-lg mx-auto">03:30</span>
                 </div>
@@ -290,7 +290,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
                 </div>
               </div>
 
-              <div class="flex items-center mb-8 montserrat">
+              <div class="flex items-center mb-8 montserrat " data-aos="zoom-in" data-aos-delay="500">
                 <div class="fondo-primario text-white rounded-full p-3">
                   <span class="text-lg mx-auto">04:30</span>
                 </div>
