@@ -49,6 +49,14 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'PlaywriteGBS', sans-serif;
 }
 
+@font-face {
+  font-family: 'DancingScript';
+  src: url('@/assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf') format('truetype');
+}
+.dancing-script-font {
+font-family: 'DancingScript', sans-serif;
+}
+
 
 
 .img-gallery img {

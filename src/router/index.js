@@ -26,6 +26,12 @@ const router = createRouter({
       // component: () => import(`../views/${route.params.cardId}/CardView.vue`),
       component: () => import(`../views/2024/240113_b_fedeycinti/CardView.vue`),
     },
+    {
+      path: '/240113_b_fedeycintia',
+      name: '240113_b_fedeycintia',
+      // component: () => import(`../views/${route.params.cardId}/CardView.vue`),
+      component: () => import(`../views/2024/240113_b_fedeycintia/CardView.vue`),
+    },
 
     // {
     //   path: '/about',
