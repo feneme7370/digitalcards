@@ -305,7 +305,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
         </div>
 
         <div class="">
-          <img class="rounded-2xl" src="/2024/240113_b_fedeycintia/images/frase2.png" alt="">
+          <img class="rounded-2xl" src="/2024/240113_b_fedeycintia/images/frase2.png" data-aos="fade-up" alt="">
         </div>
       </section>
 
@@ -317,7 +317,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
             <h1 class="text-5xl font-bold mb-6 text-center dancing-script-font">Un poco de nosotros...</h1>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div class="relative group cursor-pointer">
+              <div class="relative group cursor-pointer" data-aos="fade-up">
                 <img src="/2024/240113_b_fedeycintia/images/nosotros7.jpeg" alt="Foto 1"
                   class="w-full h-96 object-cover rounded-lg transition duration-300 transform group-hover:scale-105">
                 <div
@@ -325,7 +325,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
                   <span class="text-white text-xl font-bold">Queremos</span>
                 </div>
               </div>
-              <div class="relative group cursor-pointer">
+              <div class="relative group cursor-pointer" data-aos="fade-up">
                 <img src="/2024/240113_b_fedeycintia/images/nosotros2.jpeg" alt="Foto 2"
                   class="w-full h-96 object-cover rounded-lg transition duration-300 transform group-hover:scale-105">
                 <div
@@ -333,7 +333,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
                   <span class="text-white text-xl font-bold">Que</span>
                 </div>
               </div>
-              <div class="relative group cursor-pointer">
+              <div class="relative group cursor-pointer" data-aos="fade-up">
                 <img src="/2024/240113_b_fedeycintia/images/nosotros14.jpeg" alt="Foto 3"
                   class="w-full h-96 object-cover rounded-lg transition duration-300 transform group-hover:scale-105">
                 <div
@@ -341,7 +341,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
                   <span class="text-white text-xl font-bold">Lo</span>
                 </div>
               </div>
-              <div class="relative group cursor-pointer">
+              <div class="relative group cursor-pointer" data-aos="fade-up">
                 <img src="/2024/240113_b_fedeycintia/images/nosotros4.jpeg" alt="Foto 4"
                   class="w-full h-96 object-cover rounded-lg transition duration-300 transform group-hover:scale-105">
                 <div
@@ -374,7 +374,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
                 <span>Confirmanos tu asistencia</span>
               </h1>
 
-              <div class=" flex items-center justify-center gap-2 montserrat">
+              <div class=" flex items-center justify-center gap-2 montserrat" data-aos="fade-up">
                 <a href="https://api.whatsapp.com/send/?phone=5492396513953&text=Confirmo asistencia a la Boda de Fede y Cinti"
                   class="fondo-primario hover:fondo-primario-dark text-white font-light text-xl py-3 px-5 rounded focus:outline-none focus:shadow-outline text-center">
                   Fede
@@ -425,7 +425,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
 
       <!-- ***************************************** COMMENTS ***************************************** -->
       <section>
-        <div class="bg-cover bg-center border-t-2 borde-primario"
+        <div class="bg-cover bg-center border-t-2 borde-primario" data-aos="zoom-in"
           style="background-image: url('/2024/240113_b_fedeycintia/images/eucaliptus-2.jpg')">
           <div class="bg-opacity-20  h-60 flex items-center justify-center">
             <div class="container mx-auto text-center montserrat letra-primaria">
@@ -490,7 +490,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
 
       <!-- ***************************************** END COMMENT ***************************************** -->
       <section>
-        <div class="bg-green-50 border border-green-800 grid text-center items-center px-5 py-10 my-10">
+        <div class="bg-green-50 border border-green-800 grid text-center items-center px-5 py-10 my-10" data-aos="fade-up">
 
           <p class="text-green-800 text-sm"><span class="font-bold">✨ ¡Gracias por ser parte de nuestra historia!
               ✨</span><br><br>Tu presencia hará que este

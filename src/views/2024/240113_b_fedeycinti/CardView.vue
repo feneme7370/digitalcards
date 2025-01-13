@@ -138,7 +138,7 @@ const maps = "https://www.google.com/maps/dir/San+Pedro,+Provincia+de+Buenos+Air
           </span>
 
           <h2 class="text-center text-lg font-light px-2 dancing-script-font" data-aos="fade-up">
-            Drescode
+            Dresscode
             <br><br>
             🥂 Vestimenta Elegante ✨
           </h2>
